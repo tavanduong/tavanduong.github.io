@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+
+.product-row {
+    width: 100%;
+background-color: #F5F5F5;
+display: flex;
+
+}
+.product-row-1 {
+    background-color: #fff;
+    width: 20%;
+    margin: 20px 20px;
+    border-radius: 5px;
+
+}
+ .product-row-1_image-1 { 
+    padding-top: 100%;
+    background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  
+  
+}
+
+.product-row-1_name{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000000cc;
+    height: 3.6rem;
+    line-height: 1.8rem;
+    margin: 10px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+.product-row-1_price{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+.product-row-1_price-new{
+    color:#EE4D2D;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.product-row-1_price-sell{
+    font-size: 16px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: #0000008a;
+    font-weight: 100;
+
+}
+.product-row-1 {
+    position: relative;
+
+}
+.product-row-1_favourite{
+    position: absolute;
+    top: 10px;
+    left: -4px;
+    background-color: #F25220;
+    color: #fff;
+   font-size: 1.1rem;
+    padding:5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.product-row-1_favourite::after{
+    content: "";
+    position: absolute;
+left: 0;
+bottom:-3px;
+ border-bottom: 3px solid green;
+ border-left: 3px solid transparent;
+}
+.product-row-1_sale-off{
+position: absolute;
+right: 0;
+top: 0;
+width: 75px;
+height: 65px;
+background-color: rgb(255,216,64,0.94);
+text-align: center;
+
+}
+.product-row-1_sale-off::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    border-width:0 37.5px 20px ;
+    border-style: solid;
+    border-color:  transparent rgb(255,216,64,0.94) transparent rgb(255,216,64,0.94);
+   
+}
+.product-row-1_sale-off-percent{
+color: #EE4D2D;
+font-size: 18px;
+font-weight: 900;
+position: relative;
+top: 9px;
+}
+.product-row-1_sale-off-label{
+color: #fff;
+font-size: 18px;
+font-weight: 900;
+position: relative;
+top:12px;
+
+}
+
+.product-row-1_image-1-sale{
+    padding-top: 100%;
+    background-size: 100%;
+  background-size: contain;
+ position: relative;
+
+ 
+  
+}
